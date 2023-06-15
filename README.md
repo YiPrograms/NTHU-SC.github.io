@@ -60,7 +60,7 @@ npm run dev
 │   │   │   ├── [slug].astro
 │   │   └── cv.astro
 │   │   └── index.astro
-│   │   └── projects.astro
+│   │   └── competitions.astro
 │   │   └── rss.xml.js
 │   └── styles/
 │       └── global.css
