@@ -1,0 +1,30 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import { CompetitionsSchema } from '../../content/config';
+import CompetitionLayout from '../../layouts/CompetitionsLayout.astro';
+
+export async function getStaticPaths() {
+    const CompetitionEntries = await getCollection('competitions');
+    return CompetitionEntries.map(entry => ( { 
+        params: { slug: entry.slug }, props: { entry },
+    } ));
+}
+
+interface Props {
+    entry: CollectionEntry<"competitions">;
+}
+
+const { entry } = Astro.props;
+const Competition : CompetitionsSchema = entry.data;
+const { Content } = await entry.render();
+---
+
+<CompetitionLayout 
+    title={Competition.title} 
+    description={Competition.description} 
+    pubDate={Competition.pubDate} 
+    heroImage={Competition.heroImage} 
+    updatedDate={Competition.updatedDate} 
+    badge={Competition.badge}>
+    <Content/>
+</CompetitionLayout>
