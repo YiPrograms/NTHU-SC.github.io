@@ -23,6 +23,12 @@ This year's achievement marks our inaugural success at ISC in Germany after thre
 
 We extend our heartfelt appreciation to our sponsors, Yun Da Technologies, Quanta Computer, and the National Center for High-Performance Computing, for their unwavering support of our NTHU Computer Science student team.
 
-- Team Members: PIN-YI KUO, CHAN-YU MOU, EN-MING HUANG, FU-CHIANG CHANG, HSU-TZU TING, CHUN-MU, WENG 
+- Team Members: PIN-YI KUO, CHAN-YU MOU, EN-MING HUANG, FU-CHIANG CHANG, HSU-TZU TING, CHUN-MU WENG 
 - Student Coaches: KUO-GUANG TSAI, PANG-NING WU 
-- Faculty Advisor: Jerry Chou
+- Advisor: Jerry Chou
+
+Reference: https://nthu-en.site.nthu.edu.tw/p/406-1003-241079,r8773.php
+
+<div align="center">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Uncharted territory conquered, a cherished debut victory! This is our first time winning at ISC.<br><br>🏆 ISC23 Second Place in Germany. <br>📷 <a href="https://twitter.com/hashtag/ISC23?src=hash&amp;ref_src=twsrc%5Etfw">#ISC23</a> <a href="https://twitter.com/hashtag/HPC?src=hash&amp;ref_src=twsrc%5Etfw">#HPC</a> <a href="https://twitter.com/NTHU_TAIWAN?ref_src=twsrc%5Etfw">@NTHU_TAIWAN</a> <a href="https://t.co/DuBHMFIzpP">https://t.co/DuBHMFIzpP</a></p>&mdash; NTHUSCC (@NTHUSCC) <a href="https://twitter.com/NTHUSCC/status/1669428679380963328?ref_src=twsrc%5Etfw">June 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
