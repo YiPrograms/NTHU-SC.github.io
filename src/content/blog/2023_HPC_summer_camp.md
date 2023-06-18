@@ -46,10 +46,10 @@ table.GeneratedTable thead {
   - 用餐方式會採向餐廳訂餐盒、以餐券方式至清大學生餐廳用餐、或請學生自理。
 - 收費方式：
   - 1500 新台幣(不含住宿)、2500 新台幣(含住宿)
-  - 費用含每人旅遊平安險及公共意外責任險
+  - 費用含每人旅遊平安險
 
 
-### 行程安排
+### 行程安排(暫定)
 
 #### Day 1
 <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
@@ -287,7 +287,7 @@ table.GeneratedTable thead {
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>9:30~10:00&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>主任致詞+國網簡介(含中心影片撥放)&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>展館旁的多媒體教室<br>&nbsp;&nbsp;&nbsp;<br>禮品會先備好，放於座位上&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>展館旁的多媒體教室<br>&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td rowspan="2">&nbsp;&nbsp;&nbsp;<br>10:00~10:30&nbsp;&nbsp;&nbsp;</td>
@@ -328,3 +328,5 @@ table.GeneratedTable thead {
   </tr>
 </tbody>
 </table>
+
+> 課程期間若逢不可抗力之因素，主辦單位有權決定延期、取消、變更活動行程內容，並同時積極聯絡活動學員。
