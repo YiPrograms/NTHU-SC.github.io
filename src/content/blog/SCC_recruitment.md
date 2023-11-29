@@ -27,9 +27,17 @@ table.GeneratedTable td, table.GeneratedTable th {
 table.GeneratedTable thead {
   background-color: #ffcc00;
 }
+
+
+  /* 使用 CSS 選擇器選擇要設定的文字元素 */
+  .highlight-red-text {
+    color: #FF0000; /* 這是一個代表紅色的色碼，亮紅色 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加文字陰影 */
+  }
+
 </style>
 
-#### 參加令人振奮的超算夏令營，成為夏天最具潛力的超算專家！
+#### 加入清大頂尖的超算團隊，學習高性能計算知識並贏得榮耀！ <a href="https://forms.gle/n8mgaxa6WXZSSfnu8" class="highlight-red-text">點此報名</a>
 
 有興趣出國與全世界一流大學的學生相較量、學習嗎? 想一窺電腦系統的運作，親手操作、控制價值百萬的高效能計算系統嗎? 想要學習如何寫出能利用多台電腦或顯示卡加速超過十幾倍的程式嗎? 想下成為下一個冠軍成員嗎?
 
