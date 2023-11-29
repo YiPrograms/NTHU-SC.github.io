@@ -28,12 +28,10 @@ table.GeneratedTable thead {
   background-color: #ffcc00;
 }
 
-
-  /* 使用 CSS 選擇器選擇要設定的文字元素 */
-  .highlight-red-text {
-    color: #FF0000; /* 這是一個代表紅色的色碼，亮紅色 */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加文字陰影 */
-  }
+.highlight-red-text {
+  color: #FF0000; /* 這是一個代表紅色的色碼，亮紅色 */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加文字陰影 */
+}
 
 </style>
 
