@@ -3,6 +3,7 @@ title: "Student Cluster Competition 招募說明會"
 description: "加入清大頂尖的超算團隊，學習高性能計算知識並贏得榮耀"
 pubDate: "Nov 30 2023"
 heroImage: "/SCC_recruitment.jpeg"
+badge: "NEW"
 ---
 
 <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
