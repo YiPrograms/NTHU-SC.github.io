@@ -1,5 +1,5 @@
 ---
-title: "NTHU Team Excels in ASC Competition, Winning the E Prize"
+title: "NTHU Team Excels in ASC24 Competition, Winning the E Prize"
 description: "NTHU in Taiwan has recently won the prestigious e Prize at the ASC Student Supercomputer Challenge held in Shanghai, China."
 pubDate: "4 15 2024"
 heroImage: "/ASC-24-banner.jpg"
@@ -20,6 +20,3 @@ The NTHU team’s success in winning the E Prize was not just a reflection of th
 
 Reference: [link](https://mp.weixin.qq.com/s/XtF9Zw9dyaNlwsifyeBQcw)
 
-<div align="center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Green kuai kuai keeps everything serene🏆<a href="https://twitter.com/hashtag/HiPAC2023?src=hash&amp;ref_src=twsrc%5Etfw">#ASC24</a> </blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
