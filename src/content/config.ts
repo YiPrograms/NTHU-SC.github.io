@@ -28,6 +28,7 @@ const competitionsSchema = z.object({
     pubDate: z.coerce.date(),
     updatedDate: z.string().optional(),
     heroImage: z.string().optional(),
+    blogPost: z.string().optional(),
     badge: z.string().optional(),
 });
 

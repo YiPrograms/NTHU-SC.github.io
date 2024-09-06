@@ -4,11 +4,11 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 
 const blog_posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const comp_posts = (await getCollection("competitions")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+// const comp_posts = (await getCollection("competitions")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const news_posts = (await getCollection("news")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_blog_posts = blog_posts.slice(0, 3);
-const last_comp_posts = comp_posts.slice(0, 3);
+// const last_comp_posts = comp_posts.slice(0, 3);
 const last_news_posts = news_posts.slice(0, 3);
 ---
 
@@ -51,6 +51,7 @@ const last_news_posts = news_posts.slice(0, 3);
     ))
   }
 
+  <!--
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest competitions {"</>"}</div>
   </div>
@@ -70,6 +71,7 @@ const last_news_posts = news_posts.slice(0, 3);
       </>
     ))
   }
+  -->
 
   <!-- 
   <HorizontalCard

@@ -1,26 +1,19 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import TimeLineElement from "../components/members/TimeLine.astro";
+import TimeLineElement from "../components/members/PureTimeLine.astro";
+import HorizontalCardWithColImage from "../components/HorizontalCardWithColImage.astro";
+import { getCollection } from "astro:content";
+
+const comp_info = (await getCollection("competitions")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<BaseLayout title="Members" sideBarActiveItemID="members">
+<BaseLayout title="Competitions" sideBarActiveItemID="competitions">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
-
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-3xl w-full font-bold">Competitions</div>
   </div>
 
   <div class="time-line-container mb-10">
-    
+    <!--
     <TimeLineElement
       title="ISC 23"
       subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
@@ -42,46 +35,34 @@ import TimeLineElement from "../components/members/TimeLine.astro";
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
-    
+    -->
+
+    {
+      comp_info.map(async (entry) => {
+        let content_url = null;
+
+        // redirect to blog post if provided
+        if (entry.data.blogPost)  content_url = "/blog/" + entry.data.blogPost.toLowerCase();
+        else  content_url = "/competitions/" + entry.slug;
+
+        return(
+          <TimeLineElement
+          title={entry.data.title}
+          subtitle={entry.data.description}
+          img={entry.data.heroImage}
+          >
+            <HorizontalCardWithColImage
+              title={entry.data.title}
+              img={entry.data.heroImage}
+              desc={entry.data.description}
+              url={content_url}
+              target="_self"
+              badge={entry.data.badge}
+            />
+          </TimeLineElement>
+        )
+      })
+    }
   </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Past Team Members</div>
-  </div>
-
-  <div class="mb-5"></div>
-    <div class="text-3 w-full font-bold">ISC 23</div>
-    <div class="mb-5"></div>
-
-  <ul class="list-disc md:columns-6 columns-1 mx-6">
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-  </ul>
-
-  <div class="mb-5"></div>
-  <div class="text-3 w-full font-bold">SCC 22</div>
-  <div class="mb-5"></div>
-
-
-  <ul class="list-disc md:columns-6 columns-1 mx-6">
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-    <li>Team Member</li>
-  </ul>
 
 </BaseLayout>
