@@ -1,8 +1,6 @@
 ---
 title: "SCC12"
-description: "TSCC12"
+description: "SCC12 in Salt Lake City, US"
 pubDate: "2012"
-heroImage: "/social_img.jpg"
 ---
 
-Timeline test

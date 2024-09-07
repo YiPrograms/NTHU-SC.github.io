@@ -39,6 +39,7 @@ const comp_info = (await getCollection("competitions")).sort((a, b) => b.data.pu
 
     {
       comp_info.map(async (entry) => {
+        const { Content } = await entry.render();
         let content_url = null;
 
         // redirect to blog post if provided
@@ -59,6 +60,7 @@ const comp_info = (await getCollection("competitions")).sort((a, b) => b.data.pu
               target="_self"
               badge={entry.data.badge}
             />
+            <Content />
           </TimeLineElement>
         )
       })

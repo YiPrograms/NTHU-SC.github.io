@@ -1,8 +1,7 @@
 ---
 title: "ASC13"
-description: "TSCC12"
+description: "ASC13 in Shanghai, China"
 pubDate: "2013"
-heroImage: "/social_img.jpg"
 ---
 
-Timeline test
+
