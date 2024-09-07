@@ -3,6 +3,7 @@ title: "NTHU Team Excels in ASC24 Competition, Winning the E Prize"
 description: "NTHU in Taiwan has recently won the prestigious e Prize at the ASC Student Supercomputer Challenge held in Shanghai, China."
 pubDate: "4 15 2024"
 heroImage: "/ASC-24-banner.jpg"
+badge: "NEW"
 ---
 The National Tsing Hua University (NTHU) team’s outstanding performance in the OpenCAEPoro challenge at the ASC24 competition earned them the prestigious E Prize. This year’s ASC competition, spanning nearly six months, attracted over 300 university teams worldwide. After rigorous pre-selection, 25 teams advanced to the finals at Shanghai University, marking a record high in participation. The finals demanded that teams design and optimize a small-scale supercomputing cluster under a 3000W power constraint, tackling cutting-edge scientific and engineering applications such as HPL & HPCG benchmarks, large model inference optimization, fluid simulation, and Mars atmospheric simulation.
 

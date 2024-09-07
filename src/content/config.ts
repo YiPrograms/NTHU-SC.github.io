@@ -25,7 +25,7 @@ const storeSchema = z.object({
 const competitionsSchema = z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date(),
+    pubDate: z.string(),
     updatedDate: z.string().optional(),
     heroImage: z.string().optional(),
     blogPost: z.string().optional(),
